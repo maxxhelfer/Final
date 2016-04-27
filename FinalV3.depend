@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1461785006 source:/home/apollo/Documents/CSCI2270/FinalV3/main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"searchTree.h"
+
+1461784957 /home/apollo/Documents/CSCI2270/FinalV3/include/searchTree.h
+	<iostream>
+
+1461785354 source:/home/apollo/Documents/CSCI2270/FinalV3/src/searchTree.cpp
+	"searchTree.h"
+	<fstream>
+	<string>
+	<algorithm>
+
