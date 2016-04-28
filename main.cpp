@@ -38,38 +38,7 @@ int main()
             sTree.read(n,data);
         }
         else if(input == 2){
-            /*
-            instream.open(fileName);
-            bool found = false;
-            cout << "Enter a word:" << endl;
-            cin>>word2;
-            word2 = sTree.lower(word2);
-            while (!instream.eof()){
-                instream>>word3;
-                //for(int i = 0; i < 349900; i++){
-                    if(word2==word3){
-                        cout<<word2<<" Was Found"<<endl;
-                        found = true;
-                        break;
-                    }
-                    else if (word2!=word3){
-                        continue;
-                    }
-
-                //}
-            }
-            if (found == false){
-            cout<<word2<<" Was Not Found"<<endl;
-            }
-            instream.close();
-
-            */
-            if(sTree.compare(word2) == true){
-                cout<<"yeet"<<endl;
-            }
-            else{
-                cout<<"neet"<<endl;
-            }
+            sTree.compare(word2);
         }
         else if (input == 3){
            sTree.printWords(data);
