@@ -16,11 +16,11 @@ dictionary.txt is my source text
 7. input 5 quits the program
 
 ***System Requirements***
-OS: Linux/Virtual Machine
-Programs: Terminal or CodeBlocks
-RAM: 512mb
-Graphics: N/A
+OS: Linux/Virtual Machine.
+Programs: Terminal or CodeBlocks.
+RAM: 512mb.
+Graphics: N/A.
 
 ***Known Bugs***
-read file before print
-need to implement reading new files
+read file before print. 
+need to implement reading new files.
